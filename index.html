@@ -13,45 +13,33 @@
 <p>Seu nome em letras minúsculas: <span id="lowercaseName"></span></p>
 
 <script>
-// Create a variable with your full name
+
 const name = prompt("What is your name?");
 
-// Get the length of your name
+
 const length = name.length;
 
-// Get the first letter of your name
 const firstLetter = name[0];
 
-// Get the index of the first letter "a" in your name
 const indexOfA = name.indexOf("a");
 
-// Get the last 3 letters of your name
 const last3Letters = name.slice(-3);
 
-// Convert your name to upper case
 const uppercaseName = name.toUpperCase();
 
-// Convert your name to lower case
 const lowercaseName = name.toLowerCase();
 
-// Display your name
 document.getElementById("name").innerHTML = name;
 
-// Display the length of your name
 document.getElementById("length").innerHTML = length;
 
-// Display the first letter of your name
 document.getElementById("firstLetter").innerHTML = firstLetter;
 
-// Display the index of the first letter "a" in your name
 document.getElementById("indexOfA").innerHTML = indexOfA;
 
-// Display the last 3 letters of your name
 document.getElementById("last3Letters").innerHTML = last3Letters;
 
-// Display your name in capital letters
 document.getElementById("uppercaseName").innerHTML = uppercaseName;
 
-// Display your name in lower case
 document.getElementById("lowercaseName").innerHTML = lowercaseName;
 </script
